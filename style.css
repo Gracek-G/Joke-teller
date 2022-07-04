@@ -35,6 +35,19 @@ button {
     box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.7);
 }
 
+button:hover {
+    filter: brightness(80%);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:disabled {
+    cursor: default;
+    filter: brightness(30%);
+}
+
 /* Media: For Tablet or Smaller */
 @media screen and (max-width: 1000px) {
     .container {
